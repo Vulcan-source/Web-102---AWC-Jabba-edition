@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/Jabba.jpeg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+margin: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+font-family: "Playfair Display", serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+input, select, button {
+    padding: 10px;
+    margin: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="checkbox"]{
+    padding: 0px;
+    margin: 6px;
+    font-family: inherit;
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+    accent-color: #d97706;
+}
+
+button {
+    background-color: #d97706;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #b45309;
+}
+
+#output {
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    margin-top: 15px;
+}
